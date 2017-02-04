@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content" android:background="#813d16" >
+<RelativeLayout android:background="@drawable/border_top_bottom" android:layout_alignParentTop="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:id="@+id/RelativeLayoutTopBorderInPComment"></RelativeLayout><TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Travel Name" android:id="@+id/TextViewTravelNameInPComment" android:textColor="@color/Blue" android:textStyle="bold" android:textSize="15sp" android:layout_toRightOf="@+id/TextViewTName" android:layout_marginLeft="4sp" android:layout_below="@+id/RelativeLayoutTopBorderInPComment"></TextView>
+<TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/TextViewTName" android:text="Travel name:" android:textStyle="bold" android:textSize="15sp" android:layout_below="@+id/RelativeLayoutTopBorderInPComment"></TextView><TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@+id/TextViewTravelNameInPComment" android:id="@+id/TextViewDateInPComment" android:text="Date" android:layout_alignParentRight="true" android:textColor="@color/White"></TextView><ProgressBar android:layout_below="@+id/TextViewTravelNameInPComment" android:layout_toRightOf="@+id/TextViewDateInPComment" android:layout_width="30sp" android:layout_height="30sp" android:id="@+id/ProgressBarInPComment" android:indeterminate="false" android:visibility="gone"></ProgressBar><TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Post" android:id="@+id/TextViewPostInPComment" android:layout_below="@+id/TextViewDateInPComment"></TextView>
+<EditText android:layout_height="wrap_content" android:layout_below="@+id/TextViewPostInPComment" android:id="@+id/EditTxtCommentInPComment" android:layout_width="fill_parent" android:layout_toLeftOf="@+id/BtnSendInComment"></EditText>
+
+<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@+id/TextViewPostInPComment" android:id="@+id/BtnSendInComment" android:text="Send" android:clickable="true" android:layout_alignParentRight="true"></Button><ListView android:layout_width="wrap_content" android:layout_below="@+id/EditTxtCommentInPComment" android:id="@+id/ListViewCommentsInPComment" android:layout_height="fill_parent">
+</ListView><RelativeLayout android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:background="@drawable/border_top_bottom" android:layout_width="fill_parent" android:id="@+id/RelativeLayoutBottomBorderInPComment"></RelativeLayout>
+
+
+
+
+
+
+
+</RelativeLayout>

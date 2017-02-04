@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, Login!</string>
+    <string name="app_name">TravelJournal</string>
+<color name="Black">#000000</color>
+
+<color name="Brown">#1d1d1b</color><color name="Red">#ff0000</color>
+
+<color name="Burnt_umber">#e00c0c</color>
+<color name="White">#ffffff</color>
+<color name="Blue">#36c4ff</color>
+<string-array name="units">
+<item>Kilometers</item>
+<item>Miles</item><item>Yards</item>
+
+</string-array>
+<string name="unit">Measurement Unit</string>
+
+
+<string-array name="distance_value"><item>1</item>
+<item>5</item>
+<item>10</item>
+</string-array>
+</resources>

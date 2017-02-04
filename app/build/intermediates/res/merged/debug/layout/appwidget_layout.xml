@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical"
+android:background="@drawable/widget_bg" android:layout_height="100sp" android:layout_width="300sp">
+<ImageButton android:layout_marginTop="10sp" android:layout_height="80sp" android:background="@drawable/transparent_bg" android:clickable="true" android:layout_width="90sp" android:layout_marginLeft="9sp" android:id="@+id/ImgBtnLoginFbTwInAppWidget"></ImageButton>
+
+<ImageButton android:background="@drawable/transparent_bg" android:layout_height="80sp" android:layout_marginTop="10sp" android:clickable="true" android:layout_width="90sp" android:layout_marginLeft="17sp" android:id="@+id/ImgBtnPostInAppWidget" android:layout_toRightOf="@+id/ImgBtnLoginFbTwInAppWidget"></ImageButton>
+
+<ImageButton android:layout_width="wrap_content" android:layout_toRightOf="@+id/ImgBtnPostInAppWidget" android:layout_height="wrap_content" android:background="@drawable/transparent_bg" android:layout_marginLeft="10sp" android:id="@+id/ImgBtnCommentsInAppWidget" android:clickable="true"></ImageButton>
+
+</RelativeLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_height="fill_parent" android:layout_width="fill_parent" android:background="#813d16" >
+<RelativeLayout android:layout_centerHorizontal="true" android:id="@+id/RelativeLayoutTopBorder" android:layout_alignParentTop="true" android:background="@drawable/border_top_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content"></RelativeLayout><Button android:id="@+id/BtnUpInComment" android:clickable="true" android:onClick="MyClickInComment" android:layout_marginTop="10sp" android:layout_toLeftOf="@+id/BtnRefreshInComment" android:text="&lt;&lt;" android:textStyle="bold" android:textSize="22sp" android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+<Button android:layout_width="100sp" android:id="@+id/BtnRefreshInComment" android:clickable="true" android:onClick="MyClickInComment" android:layout_marginTop="10sp" android:layout_centerHorizontal="true" android:text="Refresh" android:textSize="16sp" android:layout_height="wrap_content"></Button>
+
+
+<Button android:layout_toRightOf="@+id/BtnRefreshInComment" android:id="@+id/BtnDownInComment" android:clickable="true" android:onClick="MyClickInComment" android:layout_marginTop="10sp" android:layout_centerHorizontal="true" android:textStyle="bold" android:text="&gt;&gt;" android:textSize="22sp" android:layout_width="wrap_content" android:layout_height="wrap_content"></Button><ProgressBar android:layout_toRightOf="@+id/BtnDownInComment" android:layout_width="40sp" android:layout_height="40sp" android:layout_marginTop="12sp" android:layout_marginLeft="5sp" android:id="@+id/ProgressBarInComment" android:visibility="invisible"></ProgressBar><ListView android:layout_below="@+id/BtnRefreshInComment" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/ListViewCommentsInComment" android:layout_marginTop="5sp"></ListView><RelativeLayout android:layout_centerHorizontal="true" android:layout_width="fill_parent" android:id="@+id/RelativeLayoutBottomBorder" android:background="@drawable/border_top_bottom" android:layout_alignParentBottom="true" android:layout_height="wrap_content"></RelativeLayout>
+
+
+
+
+
+
+
+</RelativeLayout>

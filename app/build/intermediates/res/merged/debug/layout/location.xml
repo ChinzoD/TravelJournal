@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content" android:background="@drawable/new_travel">
+<ImageButton android:layout_height="wrap_content" android:layout_width="150sp" android:layout_marginLeft="50sp" android:id="@+id/ImgBtnGPS" android:clickable="true" android:background="@drawable/button" android:layout_centerVertical="true"></ImageButton>
+<TextView android:text="Manual" android:layout_width="120sp" android:layout_height="wrap_content" android:textStyle="bold" android:id="@+id/TextViewManualInLocation" android:layout_marginLeft="60sp" android:textSize="18sp" android:layout_marginTop="18sp" android:gravity="center_vertical|center_horizontal" android:textColor="@color/Brown" android:layout_below="@+id/ImgBtnGPS" android:layout_alignLeft="@+id/ImgBtnGPS" android:layout_alignRight="@+id/ImgBtnGPS"></TextView>
+<ImageButton android:layout_marginLeft="50sp" android:background="@drawable/button" android:clickable="true" android:layout_width="150sp" android:layout_height="wrap_content" android:id="@+id/ImgBtnManual" android:layout_marginTop="10sp" android:layout_below="@+id/ImgBtnGPS"></ImageButton>
+<TextView android:layout_height="wrap_content" android:id="@+id/TextViewGPSInLocation" android:text="Automatic" android:textStyle="bold" android:textColor="@color/Brown" android:textSize="18sp" android:layout_marginLeft="60sp" android:layout_width="120sp" android:gravity="center_vertical|center_horizontal" android:layout_centerVertical="true"></TextView>
+<ImageButton android:layout_width="wrap_content" android:layout_below="@+id/ImgBtnManual" android:layout_height="wrap_content" android:id="@+id/ImgBtnCancelInLocation" android:clickable="true"></ImageButton><TextView android:layout_below="@+id/ImgBtnGPS" android:layout_height="wrap_content" android:textSize="18sp" android:textColor="@color/Brown" android:id="@+id/TextViewManualInLocation" android:textStyle="bold" android:text="Manual" android:layout_width="120sp" android:layout_marginTop="18sp" android:layout_marginLeft="60sp" android:gravity="center_vertical|center_horizontal"></TextView>
+
+
+</RelativeLayout>

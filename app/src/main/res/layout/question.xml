@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content" 
+  android:background="@drawable/startpoint">
+<TextView android:layout_height="wrap_content" android:id="@+id/TextViewTextInQuestion" android:layout_width="250sp" android:layout_marginLeft="20sp" android:gravity="center" android:textStyle="bold" android:textColor="@color/Brown" android:textSize="25sp" android:text="Are you sure set startpoint on your travel?" android:layout_marginTop="50sp"></TextView><ImageButton android:layout_height="wrap_content" android:layout_marginTop="160sp" android:layout_marginLeft="30sp" android:id="@+id/ImgBtnYesInQuestion" android:background="@drawable/button" android:layout_width="100sp"></ImageButton>
+
+<ImageButton android:layout_toRightOf="@+id/ImgBtnYesInQuestion" android:layout_height="wrap_content" android:id="@+id/ImgBtnNoInQuestion" android:layout_marginTop="160sp" android:layout_marginLeft="20sp" android:background="@drawable/button" android:layout_width="100sp"></ImageButton><TextView android:layout_height="wrap_content" android:id="@+id/TextViewOkInQuestion" android:layout_marginTop="170sp" android:text="Ok" android:layout_marginLeft="40sp" android:textColor="@color/Brown" android:textSize="18sp" android:textStyle="bold" android:layout_width="75sp" android:gravity="center_horizontal"></TextView><TextView android:layout_toRightOf="@+id/TextViewOkInQuestion" android:layout_height="wrap_content" android:textSize="18sp" android:textColor="@color/Brown" android:textStyle="bold" android:text="Cancel" android:layout_marginTop="170sp" android:layout_width="75sp" android:gravity="center_horizontal" android:layout_marginLeft="45sp" android:id="@+id/TextViewCancelInQuestion"></TextView>
+
+
+
+</RelativeLayout>

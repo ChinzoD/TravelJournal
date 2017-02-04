@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/RelativeLayout01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@drawable/new_travel">
+<EditText android:id="@+id/EditTxtTravelNameInNew_travel" android:layout_height="wrap_content" android:inputType="textCapCharacters" android:maxLength="25" android:background="@drawable/sticky_bg" android:layout_marginTop="140sp" android:layout_width="225sp" android:layout_marginLeft="40sp"></EditText><TextView android:layout_height="wrap_content" android:id="@+id/TextViewCautionInNewTravel" android:textColor="@color/Burnt_umber" android:layout_marginLeft="50sp" android:layout_width="220sp" android:textSize="17sp" android:text="Are you sure you want to end previous travel and start a new travel?" android:layout_marginTop="190sp"></TextView><ImageButton android:layout_height="wrap_content" android:id="@+id/ImgBtnOkInNew_travel" android:background="@drawable/button" android:layout_width="100sp" android:layout_marginTop="270sp" android:layout_marginLeft="25sp"></ImageButton>
+<ImageButton android:layout_height="wrap_content" android:layout_toRightOf="@+id/ImgBtnOkInNew_travel" android:layout_marginLeft="30sp" android:id="@+id/ImgBtnCancelInNew_travel" android:background="@drawable/button" android:layout_width="100sp" android:layout_marginTop="270sp"></ImageButton><TextView android:id="@+id/TextViewOkInNewTravel" android:layout_marginLeft="35sp" android:layout_width="70sp" android:text="OK" android:textColor="@color/Brown" android:textStyle="bold" android:gravity="center_vertical|center_horizontal" android:layout_height="25sp" android:layout_marginTop="278sp" android:textSize="18sp"></TextView><TextView android:layout_height="25sp" android:layout_width="70sp" android:layout_marginTop="278sp" android:layout_marginLeft="168sp" android:textSize="18sp" android:textStyle="bold" android:text="CANCEL" android:gravity="center_vertical|center_horizontal" android:textColor="@color/Brown" android:id="@+id/TextViewCancelInNewTravel"></TextView>
+
+
+
+
+</RelativeLayout>
+

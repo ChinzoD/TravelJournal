@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content" android:background="@drawable/travelmenu_bg">
+
+<ImageButton android:clickable="true" android:background="@drawable/export_btn" android:layout_width="53sp" android:layout_height="153sp" android:layout_marginLeft="176sp" android:onClick="MyClickInTMenu" android:id="@+id/ImgBtnPostsInTMenu" android:layout_alignParentBottom="true" android:layout_marginBottom="6sp"></ImageButton><ImageButton android:id="@+id/ImgBtnStartInTMenu" android:clickable="true" android:background="@drawable/start_travel_btn" android:layout_width="92sp" android:layout_height="142sp" android:layout_marginLeft="228sp" android:onClick="MyClickInTMenu" android:layout_alignParentBottom="true" android:layout_marginBottom="6sp"></ImageButton><ImageButton android:clickable="true" android:background="@drawable/travel_detail_btn" android:layout_height="140sp" android:layout_marginLeft="60sp" android:id="@+id/ImgBtnMapInTMenu" android:onClick="MyClickInTMenu" android:layout_alignParentBottom="true" android:layout_width="125sp" android:layout_marginBottom="6sp"></ImageButton><TextView android:layout_height="wrap_content" android:text="travel name end bairlana" android:id="@+id/TextViewTNameHereInTMenu" android:textColor="@color/Brown" android:textSize="17sp" android:layout_marginLeft="80sp" android:layout_width="230sp" android:layout_marginTop="125sp"></TextView>
+
+
+
+<TextView android:layout_width="wrap_content" android:layout_below="@+id/TextViewTNameHereInTMenu" android:layout_height="wrap_content" android:textSize="17sp" android:textColor="@color/Brown" android:id="@+id/TextViewTotalDistInTMenu" android:layout_marginTop="40sp" android:layout_marginLeft="70sp" android:text="Distance"></TextView><ImageButton android:layout_height="wrap_content" android:layout_width="wrap_content" android:background="@drawable/arrow_left_btn" android:id="@+id/ImgBtnBackInTMenu" android:clickable="true" android:onClick="MyClickInTMenu" android:layout_marginLeft="10sp" android:layout_alignParentBottom="true" android:layout_marginBottom="6sp"></ImageButton>
+
+
+</RelativeLayout>

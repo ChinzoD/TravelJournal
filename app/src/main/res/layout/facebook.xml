@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_height="fill_parent" android:layout_width="fill_parent" android:background="@drawable/facebook_bg">
+  
+  <ImageButton android:id="@+id/ImgBtnPostWallInFacebook" android:background="@drawable/post_wall" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_centerHorizontal="true" android:clickable="true" android:layout_marginTop="275px" android:visibility="invisible"></ImageButton><ImageButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@+id/ImgBtnPostWallInFacebook" android:layout_centerHorizontal="true" android:background="@drawable/delete_post" android:layout_marginTop="15px" android:id="@+id/ImgBtnDeleteInFacebook" android:clickable="true" android:visibility="invisible"></ImageButton><TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/txt" android:textColor="@color/Black" android:layout_alignParentBottom="true" android:layout_marginBottom="15px" android:layout_marginLeft="5px"></TextView><grand.TravelJournal.facebook.LoginButton
+        android:id="@+id/login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:layout_centerHorizontal="true" android:src="@drawable/login_button" android:clickable="true" android:layout_marginTop="75px"/>
+        
+
+
+
+<ImageButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/ImgBtnUploadInFacebook" android:background="@drawable/upload_photo" android:layout_centerHorizontal="true" android:clickable="true" android:layout_marginTop="185px" android:visibility="invisible"></ImageButton><ImageButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:id="@+id/ImgBtnBrowseInFacebook" android:background="@drawable/browse_photo" android:clickable="true" android:layout_marginTop="130px" android:visibility="invisible"></ImageButton>
+
+
+
+
+
+
+
+
+</RelativeLayout>

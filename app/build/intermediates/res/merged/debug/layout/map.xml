@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent" android:layout_height="fill_parent">
+
+<com.google.android.maps.MapView android:id="@+id/mapView" android:layout_width="fill_parent" android:enabled="true" android:clickable="true" android:apiKey="0TV3tOGq7S_6JcPu755U_dtZ8Q8bSg1QDV0_nYg" android:layout_above="@+id/RelativeLayout01" android:layout_height="fill_parent"/><RelativeLayout android:id="@+id/RelativeLayout01" android:layout_alignParentBottom="true" android:layout_width="fill_parent" android:background="@drawable/map_bg" android:layout_height="wrap_content"><ImageButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@drawable/lens_neg_btn" android:id="@+id/ImgBtnLensNegInMap" android:clickable="true" android:onClick="MyClickInMap" android:layout_marginLeft="15sp" android:layout_centerVertical="true"></ImageButton><ImageButton android:layout_width="wrap_content" android:layout_toRightOf="@+id/ImgBtnLensNegInMap" android:layout_height="wrap_content" android:layout_marginLeft="15sp" android:clickable="true" android:onClick="MyClickInMap" android:id="@+id/ImgBtnStreetInMap" android:background="@drawable/street_btn" android:layout_centerVertical="true"></ImageButton><ImageButton android:layout_height="wrap_content" android:layout_width="wrap_content" android:background="@drawable/arrow_left_btn" android:layout_centerHorizontal="true" android:id="@+id/ImgBtnBackInMap" android:layout_centerInParent="true" android:visibility="gone" android:clickable="true" android:onClick="MyClickInMap"></ImageButton><ImageButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@drawable/flag_btn" android:clickable="true" android:onClick="MyClickInMap" android:id="@+id/ImgBtnFlagInMap" android:layout_centerHorizontal="true" android:layout_centerVertical="true"></ImageButton><ImageButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:clickable="true" android:onClick="MyClickInMap" android:background="@drawable/satellite_btn" android:id="@+id/ImgBtnSatInMap" android:layout_toLeftOf="@+id/ImgBtnLensPosInMap" android:layout_marginRight="15sp" android:layout_centerVertical="true"></ImageButton><ImageButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@drawable/lens_pos_btn" android:clickable="true" android:onClick="MyClickInMap" android:id="@+id/ImgBtnLensPosInMap" android:layout_marginRight="15sp" android:layout_alignParentRight="true" android:layout_centerVertical="true"></ImageButton></RelativeLayout>
+
+
+
+
+
+
+
+
+</RelativeLayout>

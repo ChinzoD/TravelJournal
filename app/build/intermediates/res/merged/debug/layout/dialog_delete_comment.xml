@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content">
+<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/TextViewQuestionInDDelComment" android:text="Are you sure delete this comment?" android:textSize="20sp" android:width="190sp" android:gravity="center_horizontal"></TextView><Button android:id="@+id/BtnOkInDDelComment" android:text="Ok" android:layout_below="@+id/TextViewQuestionInDDelComment" android:layout_marginTop="10sp" android:layout_marginLeft="20sp" android:clickable="true" android:layout_width="90sp" android:layout_height="wrap_content"></Button>
+<Button android:layout_toRightOf="@+id/BtnOkInDDelComment" android:text="Cancel" android:id="@+id/BtnCancelInDDelComment" android:layout_below="@+id/TextViewQuestionInDDelComment" android:layout_marginTop="10sp" android:clickable="true" android:layout_width="90sp" android:layout_height="wrap_content"></Button>
+
+</RelativeLayout>

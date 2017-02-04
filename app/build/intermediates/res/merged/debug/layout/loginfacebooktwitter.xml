@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="wrap_content"
+  android:background="@drawable/export_bg" android:layout_height="480sp">
+
+<ImageButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/ImgBtnFbLoginInLFT" android:layout_centerHorizontal="true" android:background="@drawable/fb_login_btn" android:layout_marginTop="120sp" android:clickable="true" android:onClick="MyClickInLoginFbTw"></ImageButton><ImageButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/ImgBtnTwLoginInLFT" android:layout_below="@+id/ImgBtnFbLoginInLFT" android:layout_centerHorizontal="true" android:background="@drawable/tw_login_btn" android:layout_marginTop="7sp" android:clickable="true" android:onClick="MyClickInLoginFbTw"></ImageButton><ImageButton android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@drawable/arrow_left_btn" android:layout_marginLeft="6sp" android:layout_marginTop="3sp" android:clickable="true" android:id="@+id/ImgBtnBackInLFT" android:onClick="MyClickInLoginFbTw"></ImageButton><TextView android:layout_height="wrap_content" android:textSize="17sp" android:textStyle="bold" android:textColor="@color/Brown" android:text="Back" android:gravity="center_horizontal" android:layout_width="54sp" android:layout_marginTop="44sp" android:id="@+id/TextViewBackInLFT"></TextView>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>
